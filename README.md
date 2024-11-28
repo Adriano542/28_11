@@ -13,7 +13,18 @@ DOM nie jest częścią JS, ale JS umożliwia prace z DOM, jest interfejsem spos
 I. POBIERANIE ELEMENTÓW ZE STRONY INTERNETOWEJ 
 Aby w przyszłości zmodyfikować element, najpierw należy go pobrać
 1. Pobieranie właściwości obiektu Document
+   Przykładowe właściwości
+   document - całą strona
+   document.documentElement - odnosi się do HTML pierwszego znacznika
+   document.body
+   document.body.h1 - z h1 nie zadziała bo ten element musimy sobie wyszukać
+   document.images - zbiera wszystkie obrazki
 
+   HTMLCollection - przypomina tablicę, jest to obiekt tablicoodporny
+
+
+
+   
 II. MODYFIKOWANIE ELEMENTÓW NA STRONIE INTERNETOWEJ
 Mam dużo metod i właściwości, które umożliwiają mi modyfikację tego co widzę na stronie internetowej
 
